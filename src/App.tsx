@@ -9,7 +9,7 @@ export type UserAnswer = {
   correctAnswer: string;
 };
 
-const TOTAL_QUESTIONS: number = 1;
+const TOTAL_QUESTIONS: number = 10;
 
 const App = () => {
   const [loading, setLoading] = useState(false);
